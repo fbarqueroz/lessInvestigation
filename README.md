@@ -115,7 +115,7 @@ Es configurable, según sea necesario:
 - Soporte de archivos principal 
 - archivo de salida alternativo
 - supresión de salida -compresión 
-
+- https: //github.com/postcss/autoprefixer Plugin incluido que es  uscomplemento PostCSS para analizar CSS y agregar prefijos de proveedores a las reglas de CSS utilizando valores de Can I Use (https://caniuse.com/). Es recomendado por Google y utilizado en Twitter y Alibaba.
 
 
 
