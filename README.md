@@ -115,13 +115,12 @@ Es configurable, según sea necesario:
 - Soporte de archivos principal 
 - archivo de salida alternativo
 - supresión de salida -compresión 
-- https: //github.com/postcss/autoprefixer plugin incluido.
 
 
 
 
-
-* https://www.genbeta.com/desarrollo/less-el-lenguaje-de-hojas-de-estilo-dinamico
-* https://ivanmendoza.net/desarrollo-web/introduccion-less-css
+##### referencias
+ https://www.genbeta.com/desarrollo/less-el-lenguaje-de-hojas-de-estilo-dinamico
+ https://ivanmendoza.net/desarrollo-web/introduccion-less-css
 
 
