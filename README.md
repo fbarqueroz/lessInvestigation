@@ -22,21 +22,22 @@ Less tiene muchas características pero se va a mencionar unas más relevantes
 
 # Variables
 Las variables en less funcionan de forma similar a las constantes en los lenguajes de programación, permitiendo definir valores que podrán ser reutilizados en cualquier parte de la hoja de estilo, e incluso entre otras hojas de estilo.
-
+```
 @variable: valor;
- 
+``` 
  
  
  
  
 # Mixins
 Los mixins funcionan de forma similar a las clases CSS pero con características de funciones de programación. Es decir que pueden ser llamadas desde otras clases para obtener su valor y además permiten parámetros, aunque no es necesario utilizarlos. Esta característica  hace posible definir una clase dando flexibilidad para variar algunos estilos como el color o tamaño del elemento. Su sintaxis, en el caso de que usemos parámetros,  es la siguiente:
+```
 .mi_mixin(color: valordefecto){
  font-size:2em;
   color:@color;
   margin:0.2em;
 }
-
+```
 # Funciones de color
 
 Las funciones de color son funciones pre-definidas de Less CSS que permiten alterar un color, para hacerlo más claro, oscuro, saturado, desaturado, cambiarle la tonalidad, etc.
@@ -49,30 +50,40 @@ Las funciones de color son funciones pre-definidas de Less CSS que permiten alte
 “fade” para cambiar la transparencia al 50%.
 “spin” para cambiar el tono de color.
 “mix” para mezclar dos colores.
-Su sintaxis sería:    lighten(@color, 30%);  darken(@color, 30%);
+
+Su sintaxis sería:    
+```lighten(@color, 30%);  
+darken(@color, 30%);
+```
 https://www.youtube.com/watch?v=vPFbW3utUuU Tutorial instalación
 
 # Less en Mac:
+```
 sudo npm install -g less
-
+```
 # Instalar Less en el Visual Code:
 
 -Colocamos esto en el head del HTML:
+```
    <link rel="stylesheet/less" type="text/css" href="styles.less"/>
-
+```
 -Colocamos esto en el final del body
+```
    <script src="//cdn.jsdelivr.net/npm/less@3.13"></script>
-
+```
 # Instalar Less con Bash:
+```
 npm install less -g
-
+```
 # Usar Less de forma global:
+```
 npm i less --save-dev
-
+```
 # Verificar la versión de Less:
+```
 lessc -v
 lessc --version
-
+```
 
 
 
