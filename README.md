@@ -66,7 +66,7 @@ Less soporta gran cantidad de frameworks pero vamos a mencionar algunos de estos
 
 #### UI/Theme Frameworks y Componentes 
 * **1pxdeep:** Es un tema plano de Bootstrap que proporciona potentes controles de combinación de colores.
-* **Bootflat:** Es un marco de código abierto basado en Bootstrap.
+* **Bootflat:** Es un framework de código abierto basado en Bootstrap.
 * **BootPress:** Es un framework PHP basado en CMS de archivo plano
 * **Bootstrap:** Es un potente framework de front-end móvil para un desarrollo web más rápido y sencillo.
 * **Bootswatch:** Es un theme de código abierto que proporciona temas gratuitos para Bootstrap.
