@@ -57,7 +57,8 @@ Las funciones de color son funciones pre-definidas de Less CSS que permiten alte
 “mix” para mezclar dos colores.
 
 Su sintaxis sería:    
-```lighten(@color, 30%);  
+```
+   lighten(@color, 30%);  
    darken(@color, 30%);
 ```
 
