@@ -1,4 +1,5 @@
 # Preprocesador Less
+http://lesscss.org/
 
 ## Comparación
 
@@ -17,11 +18,6 @@
 * Ideal para grandes hojas de estilo
 * Mejor compilación
 * Funciona bajo Ruby
-
-
-http://lesscss.org/
-
-
 
 # ¿Qué es Less?
 
