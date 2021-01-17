@@ -1,13 +1,22 @@
 # Preprocesador Less
 
-Comparación
+## Comparación
 
-LESS                                                SASS
-Mejor prestaciones para sitios webs                 Mejor prestaciones para aplicaciones webs
-Nomenclatura más sencilla (más similar a CSS)       Mucho más potente
-Curva de aprendizaje menor                          Ideal para grandes hojas de estilo
-Pocas dependencias                                  Mejor compilación
-Funciona bajo Javascript                            Funciona bajo Ruby
+
+### LESS
+* Mejor prestaciones para sitios webs
+* Nomenclatura más sencilla (más similar a CSS)
+* Curva de aprendizaje menor
+* Pocas dependencias
+* Funciona bajo Javascript
+
+
+### SASS
+* Mejor prestaciones para aplicaciones webs
+* Mucho más potente
+* Ideal para grandes hojas de estilo
+* Mejor compilación
+* Funciona bajo Ruby
 
 
 http://lesscss.org/
