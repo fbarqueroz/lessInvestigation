@@ -58,7 +58,7 @@ Las funciones de color son funciones pre-definidas de Less CSS que permiten alte
 
 Su sintaxis sería:    
 ```lighten(@color, 30%);  
-darken(@color, 30%);
+   darken(@color, 30%);
 ```
 
 ## Frameworks o librerías
