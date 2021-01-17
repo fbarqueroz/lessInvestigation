@@ -25,7 +25,7 @@ LESS CSS es una ampliación a las famosas hojas de estilo CSS, pero a diferencia
 ¿Qué funcionalidades aporta? ¿puedo usar funciones o variables?
 Less tiene muchas características pero se va a mencionar unas más relevantes
 
-# Variables
+## Variables
 Las variables en less funcionan de forma similar a las constantes en los lenguajes de programación, permitiendo definir valores que podrán ser reutilizados en cualquier parte de la hoja de estilo, e incluso entre otras hojas de estilo.
 ```
 @variable: valor;
@@ -34,7 +34,7 @@ Las variables en less funcionan de forma similar a las constantes en los lenguaj
  
  
  
-# Mixins
+## Mixins
 Los mixins funcionan de forma similar a las clases CSS pero con características de funciones de programación. Es decir que pueden ser llamadas desde otras clases para obtener su valor y además permiten parámetros, aunque no es necesario utilizarlos. Esta característica  hace posible definir una clase dando flexibilidad para variar algunos estilos como el color o tamaño del elemento. Su sintaxis, en el caso de que usemos parámetros,  es la siguiente:
 ```
 .mi_mixin(color: valordefecto){
@@ -43,7 +43,7 @@ Los mixins funcionan de forma similar a las clases CSS pero con características
   margin:0.2em;
 }
 ```
-# Funciones de color
+## Funciones de color
 
 Las funciones de color son funciones pre-definidas de Less CSS que permiten alterar un color, para hacerlo más claro, oscuro, saturado, desaturado, cambiarle la tonalidad, etc.
 “lighten” para aclarar un color.
@@ -60,13 +60,27 @@ Su sintaxis sería:
 ```lighten(@color, 30%);  
 darken(@color, 30%);
 ```
+
+## Frameworks o librerías
+Less soporta gran cantidad de frameworks pero vamos a mencionar algunos de estos
+
+* **1pxdeep:** Es un tema plano de Bootstrap 3 que proporciona potentes controles de combinación de colores.
+* **Bootflat:** Es un marco de código abierto basado en Bootstrap.
+* **BootPress:** Es un framework PHP basado en CMS de archivo plano
+* **Bootstrap:** Es un potente framework de front-end móvil para un desarrollo web más rápido y sencillo.
+* **Bootswatch:** Es un theme de código abierto que proporciona temas gratuitos para Bootstrap.
+* **Cardinal:** Es un framework CSS para dispositivos móviles que permite mantener CSS para sitios web, interfaces de usuario y aplicaciones receptivos.
+
+referencias: https://www.tutorialspoint.com/less/less_frameworks.htm
+
+
 https://www.youtube.com/watch?v=vPFbW3utUuU Tutorial instalación
 
-# Less en Mac:
+### Less en Mac:
 ```
 sudo npm install -g less
 ```
-# Instalar Less en el Visual Code:
+### Instalar Less en el Visual Code:
 
 -Colocamos esto en el head del HTML:
 ```
@@ -76,15 +90,15 @@ sudo npm install -g less
 ```
    <script src="//cdn.jsdelivr.net/npm/less@3.13"></script>
 ```
-# Instalar Less con Bash:
+### Instalar Less con Bash:
 ```
 npm install less -g
 ```
-# Usar Less de forma global:
+### Usar Less de forma global:
 ```
 npm i less --save-dev
 ```
-# Verificar la versión de Less:
+### Verificar la versión de Less:
 ```
 lessc -v
 lessc --version
