@@ -84,11 +84,11 @@ sudo npm install -g less
 ```
 ### Instalar Less en el Visual Code:
 
--Colocamos esto en el head del HTML:
+- Colocamos esto en el head del HTML:
 ```
    <link rel="stylesheet/less" type="text/css" href="styles.less"/>
 ```
--Colocamos esto en el final del body
+- Colocamos esto en el final del body
 ```
    <script src="//cdn.jsdelivr.net/npm/less@3.13"></script>
 ```
