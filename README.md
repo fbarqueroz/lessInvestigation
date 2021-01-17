@@ -106,6 +106,16 @@ lessc -v
 lessc --version
 ```
 
+## Easy LESS
+
+Una vez instalado el LESS dentro del Visual Code, buscamos un plugin llamado ** Easy ** Less para instalarlo. Esto nos ayudará mientras estemos trabajando con LESS.
+Si el archivo de styles.css se borra accidentalmente el plugin creará uno inmediatamente luego de guardar nuestro proceso en el archivo de styles.less con Ctrl + S en windows o Command S en MAC.
+Además, compila errores integrados con los errores estándar y lista de advertencias. 
+Es configurable, según sea necesario: 
+-Soporte de archivos principal 
+-archivo de salida alternativo
+-supresión de salida -compresión 
+-https: //github.com/postcss/autoprefixer plugin incluido.
 
 
 
