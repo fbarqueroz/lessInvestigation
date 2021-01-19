@@ -46,15 +46,15 @@ Los mixins funcionan de forma similar a las clases CSS pero con características
 ## Funciones de color
 
 Las funciones de color son funciones pre-definidas de Less CSS que permiten alterar un color, para hacerlo más claro, oscuro, saturado, desaturado, cambiarle la tonalidad, etc.
-“lighten” para aclarar un color.
-“darken” para oscurecerlo.
-“saturate” para saturar, o «aumentar el color».
-“desaturate” para reducir la saturación, o «reducir el color».
-“fadein” para resaltar quitándole transparencia.
-“fadeout” para disimular usando transparencia.
-“fade” para cambiar la transparencia al 50%.
-“spin” para cambiar el tono de color.
-“mix” para mezclar dos colores.
+* “lighten” para aclarar un color.
+* “darken” para oscurecerlo.
+* “saturate” para saturar, o «aumentar el color».
+* “desaturate” para reducir la saturación, o «reducir el color».
+* “fadein” para resaltar quitándole transparencia.
+* “fadeout” para disimular usando transparencia.
+* “fade” para cambiar la transparencia al 50%.
+* “spin” para cambiar el tono de color.
+* “mix” para mezclar dos colores.
 
 Su sintaxis sería:    
 ```
