@@ -124,4 +124,7 @@ Es configurable, según sea necesario:
  - https://www.genbeta.com/desarrollo/less-el-lenguaje-de-hojas-de-estilo-dinamico
  - https://ivanmendoza.net/desarrollo-web/introduccion-less-css
 
+#### Documento y presentación
 
+- https://docs.google.com/document/d/19SzptLeLK6Vd3yasJr4Holqf9MqjkpbtDn-nzsXbJRQ/edit
+- https://www.powtoon.com/s/fHQ51InB9Jf/1/m
