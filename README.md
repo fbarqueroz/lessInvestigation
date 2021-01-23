@@ -62,6 +62,15 @@ Su sintaxis sería:
    darken(@color, 30%);
 ```
 
+## @import
+Se usa para importar los archivos en el código. Difunde el código LESS en diferentes archivos y permite mantener la estructura del código fácilmente. Puede poner las declaraciones @import en cualquier lugar del código.
+
+Ejemplo:
+```
+   @import "button";
+```
+Este se importa desde un archivo **button.less** hacia el archivo **styles.less**.
+
 ## Frameworks o librerías
 Less soporta gran cantidad de frameworks pero vamos a mencionar algunos de estos
 
